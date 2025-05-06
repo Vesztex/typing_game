@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>打字速度挑戰</title>
+</head>
+<body>
+    <header>
+        <div class="title">打字速度挑戰</div> <!-- 添加左上角標題 -->
+        <nav>
+            <ul>
+                <li><a href="rules.html">遊戲規則</a></li>
+                <li><a href="about.html">關於我們</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 移除原本的 h1 -->
+        <p id="sentence">請在限時內輸入以下文字</p>
+        <div class="timer">
+            Time: <span id="timer">2:00</span>
+        </div>
+        <input type="text" id="typeInput" placeholder="請開始打字...">
+    </main>
+
+    <div id="resultOverlay">
+        <div class="result-content">
+        </div>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2025 trash game| 打字速度挑戰</p>
+    </footer>
+    <div id="resultOverlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
